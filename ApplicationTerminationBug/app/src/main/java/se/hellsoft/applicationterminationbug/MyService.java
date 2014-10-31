@@ -66,11 +66,13 @@ public class MyService extends Service {
 		}
 	}
 
+// Uncomment the method below to fix the bug! :)
+
 /*
-@Override
-public void onTaskRemoved(Intent rootIntent) {
-super.onTaskRemoved(rootIntent);
-stopForegroundJob();
-}
+	@Override
+	public void onTaskRemoved(Intent rootIntent) {
+		super.onTaskRemoved(rootIntent);
+		stopForegroundJob();
+	}
 */
 }
